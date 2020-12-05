@@ -3,7 +3,7 @@ const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 const app = express()
 const {mogoUri} = require('./keys')
-const PORT = 3003
+const PORT = 3000
 
 require('./models/Account')
 
