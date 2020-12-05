@@ -6,6 +6,8 @@ const {mogoUri} = require('./keys')
 const PORT = 3000
 
 require('./models/Account')
+require('./models/Clinic')
+require('./models/State')
 
 const clinicRoutes = require('./routes/clinicRoutes')
 const requireToken = require('./middleware/requireToken')
